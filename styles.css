@@ -1,0 +1,50 @@
+:root {
+  --Dark-Blue: hsl(240, 38%, 20%);
+  --Grayish-Blue: hsl(240, 18%, 77%);
+  font-size: 32px;
+}
+
+.container {
+  width: 375px;
+  height: 667px;
+  font-family: 'Inter', sans-serif;
+  color: var(--Dark-Blue);
+}
+
+.img {
+  max-width: 100%;
+  border-radius: 5px;
+  display: block;
+}
+
+.description {
+  font-weight: 300;
+  margin-top: 88px;
+  font-size: .5rem;
+  text-align: center;
+  line-height: .9rem;
+}
+
+.description p {
+  font-size: .4rem;
+}
+
+.name,
+.profesion {
+  font-size: .4em;
+  display: block;
+  text-align: center;
+}
+
+.name {
+  font-weight: 700;
+  margin-top: .93rem;
+}
+
+.profesion {
+  color: var(--Grayish-Blue);
+}
+
+.attribution {
+  font-size: .5rem;
+}
