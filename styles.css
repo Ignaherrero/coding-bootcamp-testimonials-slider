@@ -80,3 +80,59 @@ body {
 .attribution {
   font-size: .5rem;
 }
+
+@media only screen and (min-width: 846px) {
+  .container {
+    display: flex;
+    height: 451px;
+    width: 813px;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(/images/pattern-curve.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 285px;
+  }
+
+  .description {
+    text-align: left;
+    padding-top: 4rem;
+  }
+
+  .img-container,
+  .description {
+    margin: 0;
+    /* padding: 0; */
+  }
+
+  .data,
+  .description {
+    width: 354px;
+  }
+
+  .data {
+    position: relative;
+    z-index: 10;
+    left: 2.7rem;
+    order: -1;
+    width: 354px;
+  }
+
+  .name,
+  .profesion {
+    display: inline;
+  }
+
+  .img {
+    width: 305px;
+    height: 305px;
+    margin-right: 58px;
+    padding-top: 38px;
+  }
+
+  .img-container {
+    width: 405px;
+    height: 375px;
+    background-size: contain;
+  }
+}
