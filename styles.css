@@ -43,6 +43,23 @@ body {
   margin-left: auto;
 }
 
+.change {
+  height: 40px;
+  width: 80px;
+  margin: auto;
+  background-color: white;
+  border-radius: 30px 30px;
+  position: relative;
+  bottom: 23px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+svg {
+  fill: var(--Grayish-Blue);
+}
+
 .description {
   font-weight: 300;
   font-size: .59rem;
