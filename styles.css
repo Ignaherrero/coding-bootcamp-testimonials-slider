@@ -21,6 +21,7 @@ body {
   height: 667px;
   font-family: 'Inter', sans-serif;
   color: var(--Dark-Blue);
+  margin: auto;
 }
 
 .img-container {
@@ -96,6 +97,39 @@ svg {
 
 .attribution {
   font-size: .5rem;
+}
+
+.link {
+  padding: .1rem;
+  background-color: var(--Light-Grayish-Blue)
+}
+
+.link:link,
+.link:visited {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+  text-decoration: underline;
+}
+
+.link:link {
+  color: blue;
+  border-radius: 5px;
+}
+
+.link:visited {
+  color: blue;
+}
+
+.link:hover {
+  color: blue;
+  border-radius: 5px;
+}
+
+.link:active {
+  transform: scale(.9);
 }
 
 @media only screen and (min-width: 846px) {
