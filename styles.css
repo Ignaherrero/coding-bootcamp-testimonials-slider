@@ -147,6 +147,10 @@ svg {
     padding-top: 38px;
   }
 
+  .change {
+    right: 104px;
+  }
+
   .img-container {
     width: 405px;
     height: 375px;
