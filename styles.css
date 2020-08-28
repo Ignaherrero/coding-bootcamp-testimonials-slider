@@ -25,6 +25,7 @@ body {
 }
 
 .img-container {
+  position: relative;
   background-size: contain;
   background-repeat: no-repeat;
   height: 306px;
@@ -42,6 +43,7 @@ body {
   padding-top: 30px;
   margin-right: auto;
   margin-left: auto;
+  box-shadow: -63px 79px 29px -75px #bdbed3;
 }
 
 .change {
@@ -55,6 +57,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  box-shadow: 0px 5px 20px 0px #bdbed3;
 }
 
 svg {
