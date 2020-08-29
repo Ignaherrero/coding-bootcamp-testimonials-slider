@@ -94,14 +94,14 @@ svg {
   font-size: .4rem;
 }
 
-.name,
+.nam,
 .profesion {
   font-size: .4rem;
   display: block;
   text-align: center;
 }
 
-.name {
+.nam {
   font-weight: 700;
   margin-top: .93rem;
 }
@@ -187,7 +187,7 @@ svg {
     width: 354px;
   }
 
-  .name,
+  .nam,
   .profesion {
     display: inline;
   }
