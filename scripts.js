@@ -14,7 +14,7 @@ const people = [{
 
 let i = 0;
 
-next.addEventListener('click', () => {
+next.addEventListener('mousedown', () => {
    i += 1;
    i = i % people.length;
    profesion.textContent = people[i].profesion;
@@ -23,7 +23,7 @@ next.addEventListener('click', () => {
    img.src = people[i].img;
 });
 
-previous.addEventListener('click', () => {
+previous.addEventListener('mousedown', () => {
    if (i === 0) {
       i = people.length;
    }
