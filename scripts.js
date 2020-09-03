@@ -1,5 +1,6 @@
-const next = document.getElementById('next');
-const previous = document.getElementById('previous');
+const NEXT = document.getElementById('next');
+const PREVIOUS = document.getElementById('previous');
+
 const people = [{
    nam: 'Tanya Sinclair',
    profesion: 'UX Engineer',
@@ -13,7 +14,6 @@ const people = [{
 }]
 
 let i = 0;
-
 next.addEventListener('mousedown', () => {
    i += 1;
    i = i % people.length;
@@ -32,5 +32,5 @@ previous.addEventListener('mousedown', () => {
    nam.textContent = people[i].nam;
    description.textContent = people[i].description;
    img.src = people[i].img;
-})
+});
 

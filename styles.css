@@ -3,6 +3,12 @@
   --Grayish-Blue: hsl(240, 18%, 77%);
 }
 
+/* Reset */
+body {
+  margin: 0
+}
+
+/* Content */
 html {
   font-size: 30px;
   font-family: 'Inter', sans-serif;
