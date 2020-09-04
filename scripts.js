@@ -1,6 +1,3 @@
-const NEXT = document.getElementById('next');
-const PREVIOUS = document.getElementById('previous');
-
 const people = [{
    nam: 'Tanya Sinclair',
    profesion: 'UX Engineer',
@@ -13,7 +10,16 @@ const people = [{
    img: '../images/image-john.jpg'
 }]
 
+const NEXT = document.getElementById('next');
+const PREVIOUS = document.getElementById('previous');
+
+let profesion = document.getElementById('profesion');
+let nam = document.getElementById('nam');
+let description = document.getElementById('description');
+let img = document.getElementById('img');
+
 let i = 0;
+
 next.addEventListener('mousedown', () => {
    i += 1;
    i = i % people.length;
@@ -21,6 +27,10 @@ next.addEventListener('mousedown', () => {
    nam.textContent = people[i].nam;
    description.textContent = people[i].description;
    img.src = people[i].img;
+   profesion.replaceWith(profesion);
+   nam.replaceWith(nam);
+   description.replaceWith(description);
+   img.replaceWith(img);
 });
 
 previous.addEventListener('mousedown', () => {
@@ -32,5 +42,9 @@ previous.addEventListener('mousedown', () => {
    nam.textContent = people[i].nam;
    description.textContent = people[i].description;
    img.src = people[i].img;
+   profesion.replaceWith(profesion);
+   nam.replaceWith(nam);
+   description.replaceWith(description);
+   img.replaceWith(img);
 });
 
