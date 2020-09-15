@@ -37,18 +37,18 @@ body {
   position: relative;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 306px;
   width: 327px;
+  height: 306px;
   margin: auto;
   background-image: url(/images/pattern-bg.svg);
   background-position: center;
 }
 
 .img {
+  display: block;
   width: 255px;
   max-width: 100%;
   border-radius: 5px;
-  display: block;
   padding-top: 30px;
   margin-right: auto;
   margin-left: auto;
@@ -56,21 +56,21 @@ body {
 }
 
 .change {
-  height: 40px;
+  display: flex;
+  position: relative;
+  bottom: 23px;
   width: 80px;
+  height: 40px;
   margin: auto;
   background-color: white;
   border-radius: 30px 30px;
-  position: relative;
-  bottom: 23px;
   box-shadow: 0px 5px 20px 0px #bdbed3;
-  display: flex;
 }
 
 .previous,
 .next {
-  flex-grow: 1;
   display: flex;
+  flex-grow: 1;
   justify-content: center;
   align-items: center;
   cursor: pointer;
@@ -105,8 +105,8 @@ svg {
 
 .nam,
 .profesion {
-  font-size: .4rem;
   display: block;
+  font-size: .4rem;
   text-align: center;
 }
 
@@ -125,14 +125,14 @@ svg {
   font-weight: 300;
 }
 
-.link {
-  padding: .1rem;
-  background-color: var(--Light-Grayish-Blue)
-}
-
-.link:link,
+.attribution:link,
 .link:visited {
   text-decoration: none;
+  color: blue;
+}
+
+.link:hover {
+  color: blue;
 }
 
 .link:hover,
@@ -140,22 +140,9 @@ svg {
   text-decoration: underline;
 }
 
-.link:link {
-  color: blue;
-  border-radius: 5px;
-}
-
-.link:visited {
-  color: blue;
-}
-
-.link:hover {
-  color: blue;
-  border-radius: 5px;
-}
-
 .link:active {
-  transform: scale(.9);
+  display: inline-block;
+  transform: scale(.8);
 }
 
 @media only screen and (min-width: 846px) {
